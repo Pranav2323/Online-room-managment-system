@@ -4,7 +4,7 @@ public int CalBill(int days, String type) {
 	int bill=0;
 	if (type.compareTo("single")==0)
 	{
-		bill=2500*days;
+		bill=3000*days;
 	}
 	else if(type.compareTo("twin bed")==0)
 	{
@@ -12,7 +12,7 @@ public int CalBill(int days, String type) {
 	}
 	else if(type.compareTo("suite")==0)
 	{
-		bill=10000*days;
+		bill=12000*days;
 	}
 	return bill;
 	}
