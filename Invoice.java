@@ -16,6 +16,7 @@ public int CalBill(int days, String type) {
 		{
 			bill=12000*days;
 		}
+	
 		return bill;
 	}
 	else
